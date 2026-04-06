@@ -14,3 +14,4 @@ export function getRandomQuote(quotes) {
   const index = getRandomInt(quotes.length);
   return quotes[index];
 }
+export default getRandomQuote;
